@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharayu | Portfolio</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                Sharayu Yeole
+            </h1>
+            <ul>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#project">Project</a></li>
+                <li><a href = "#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+     <section id = "hero">
+        <h2>Hello, I'm Sharayu </h2>
+        <p>Aspiring Software Developer | Java | Spring Boot | MySQL</p>
+        <a href="mailto:sharayuyeole38@gmail.com?subject=Job%20Opportunity&body=Hello%20Sharayu,%0A%0AI%20am%20interested%20in%20hiring%20you.%0A%0ARegards," class="btn">Email Me</a>
+        <a href="Resume.pdf" class="btn" download="Sharayu_Resume">Download Resume</a>
+     </section>
+     <section id="about">
+        <h2>About Me</h2>
+        <p>I am passionate about building full-stack applications using Java, Spring Boot, MySQL, and frontend technologies. Currently improving my DSA and system design skills.</p>
+     </section>
+     <section id="project">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>Built with Java, Spring Boot, Microservices, MySQL</p>
+            <a href="https://github.com/Sharayu003/Student-Management-System" target="_blank" class="btn">View Project</a>
+        </div>
+
+     </section>
+
+     <!-- Contact Section -->
+      <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="status-message"></p> <!-- to show success/error messages -->
+</section>
+
+      <!-- footer -->
+       <footer>
+        <p>&copy;2025 Sharayu Yeole | Made with &hearts;</p>
+       </footer>
+</body>
+</html>
