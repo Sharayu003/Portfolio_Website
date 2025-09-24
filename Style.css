@@ -47,7 +47,7 @@ nav ul li a:hover {
 #hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, hsl(230, 60%, 20%), hsl(210, 80%, 60%));
+  background: linear-gradient(135deg, hsl(247, 80%, 19%), hsl(210, 97%, 71%));
 
   color: #fff;
 }
@@ -82,7 +82,7 @@ section h2 {
   text-align: center;
   margin-bottom: 30px;
   font-size: 28px;
-  color: #222;
+  color: ##4FD1C5;;
 }
 #about p {
   max-width: 700px;
@@ -121,6 +121,13 @@ section h2 {
 .project-card a:hover {
   color: #ff9800;
 }
+.project-card ul {
+    list-style-type: none; /* Removes bullets */
+    padding-left: 0;       /* Removes extra left padding */
+    margin-left: 0;
+}
+
+
 form {
   max-width: 500px;
   margin: auto;
