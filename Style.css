@@ -225,6 +225,7 @@ section h2::after {
 /* Button inside project cards */
 .project-card .btn {
   background-color: var(--primary-color);
+  color: white;
 }
 
 .project-card .btn:hover {
